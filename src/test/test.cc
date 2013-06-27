@@ -249,7 +249,7 @@ void TestUtils::ShowHistogram(const int* data, int len, int zoom) {
   }
 
   for (int i = 0; i < len; ++i) {
-    fdata[i] = data[i] * 1.0f / accum;
+    fdata[i] = (float) data[i] / accum;
   }
 
   ShowNormedHistogram(fdata, len, zoom);
