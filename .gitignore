@@ -1,4 +1,7 @@
 /Debug
 /Release
-/.cproject
-/.project
+/build/
+/dist/
+/.dep.inc
+/Makefile
+/nbproject
