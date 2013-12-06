@@ -5,7 +5,7 @@
 //
 // Author: LIU Yi
 
-#include "utils/common/common.h"
+#include "common/common.h"
 
 #include <sys/stat.h>
 #include <dirent.h>
@@ -18,6 +18,7 @@
 #endif
 
 #include <iostream>
+#include <sstream>
 #include <algorithm>
 
 using namespace std;
@@ -29,27 +30,32 @@ string CmnUtils::Trim(const string& input) {
 
   string::const_iterator it = input.begin();
   string::const_iterator end = input.end();
-  for (; it != end && isBlank(*it); ++it) {}
+  for (; it != end && IsBlank(*it); ++it) {}
   if (it == end) {
     return string();
   }
   string::const_iterator start = it;
 
-  for (it = input.end() - 1; it != start && isBlank(*it); --it) {}
+  for (it = input.end() - 1; it != start && IsBlank(*it); --it) {}
 
   return string(start, it + 1);
 }
 
-void CmnUtils::Split(const std::string& input, char sep, vector<string>* output) {
-  string::size_type start = 0;
-  string::size_type end;
-  while ((end = input.find_first_of(sep, start)) != string::npos) {
-    output->push_back(input.substr(start, end - start));
-
-    start = end + 1;
+void CmnUtils::Split(const string& input, char delim, vector<string>* output) {
+  stringstream ss(input);
+  std::string item;
+  while (getline(ss, item, delim)) {
+    output->push_back(item);
   }
+}
 
-  output->push_back(input.substr(start, input.length() - start));
+std::vector<std::string> &split(const std::string &s, char delim, std::vector<std::string> &elems) {
+    std::stringstream ss(s);
+    std::string item;
+    while (std::getline(ss, item, delim)) {
+        elems.push_back(item);
+    }
+    return elems;
 }
 
 void CmnUtils::RetrieveFilenames(const string& dir_name, const string& suffix,

@@ -5,12 +5,12 @@
 //
 // Author: LIU Yi
 
-#ifndef UTILS_IMAGE_SCALE_SPACE_H_
-#define UTILS_IMAGE_SCALE_SPACE_H_
+#ifndef IMAGE_SCALE_SPACE_H_
+#define IMAGE_SCALE_SPACE_H_
 
 #include <opencv2/core/core.hpp>
 
-#include "utils/math/math.h"
+#include "math/math.h"
 
 class ScaleSpace {
 public:

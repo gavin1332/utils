@@ -12,11 +12,11 @@
  *      Author: liuyi
  */
 
-#include "utils/image/mser.h"
+#include "image/mser.h"
 
 #include <opencv2/imgproc/imgproc.hpp>
 
-#include "utils/math/math.h"
+#include "math/math.h"
 
 using namespace std;
 using namespace cv;

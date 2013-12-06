@@ -5,7 +5,7 @@
  *      Author: liuyi
  */
 
-#include "utils/common/dynamic.h"
+#include "common/dynamic.h"
 
 #include <cstdlib>
 

@@ -5,8 +5,8 @@
  *      Author: liuyi
  */
 
-#ifndef UTILS_IMAGE_MSER_H_
-#define UTILS_IMAGE_MSER_H_
+#ifndef IMAGE_MSER_H_
+#define IMAGE_MSER_H_
 
 #include <vector>
 #include <list>

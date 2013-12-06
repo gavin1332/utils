@@ -5,7 +5,7 @@
 //
 // Author: LIU Yi
 
-#include "utils/test/test.h"
+#include "test/test.h"
 
 #include <stdarg.h>
 #include <ctime>

@@ -5,8 +5,8 @@
 //
 // Author: LIU Yi
 
-#ifndef UTILS_COMMON_COMMON_H_
-#define UTILS_COMMON_COMMON_H_
+#ifndef COMMON_COMMON_H_
+#define COMMON_COMMON_H_
 
 #include <cmath>
 #include <string>
@@ -16,7 +16,7 @@ class CmnUtils {
  public:
   static std::string Trim(const std::string& input);
 
-  static void Split(const std::string& input, char sep,
+  static void Split(const std::string& input, char delim,
                     std::vector<std::string>* output);
 
   // Retrieve all file names with a named suffix in the specified folder
@@ -34,7 +34,7 @@ class CmnUtils {
 #endif
 
  private:
-  static bool isBlank(const char ch) {
+  static bool IsBlank(const char ch) {
     return ch == ' ' || ch == '\t' || ch == '\n' || ch == '\r';
   }
 };

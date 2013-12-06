@@ -5,8 +5,8 @@
  *      Author: liuyi
  */
 
-#ifndef UTILS_SVM_INTERFACE_H_
-#define UTILS_SVM_INTERFACE_H_
+#ifndef SVM_INTERFACE_H_
+#define SVM_INTERFACE_H_
 
 #include "svm.h"
 

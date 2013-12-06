@@ -5,14 +5,14 @@
 //
 // Author: LIU Yi
 
-#ifndef UTILS_IMAGE_IMAGE_H_
-#define UTILS_IMAGE_IMAGE_H_
+#ifndef IMAGE_IMAGE_H_
+#define IMAGE_IMAGE_H_
 
 #include <cmath>
 
 #include <opencv2/core/core.hpp>
 
-#include "utils/math/math.h"
+# include "math/math.h"
 
 class ImgUtils {
  public:

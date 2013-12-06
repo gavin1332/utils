@@ -5,8 +5,8 @@
 //
 // Author: LIU Yi
 
-#ifndef UTILS_MATH_MATH_H_
-#define UTILS_MATH_MATH_H_
+#ifndef MATH_MATH_H_
+#define MATH_MATH_H_
 
 #include <cmath>
 #include <ctime>

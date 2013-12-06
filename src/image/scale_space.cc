@@ -5,13 +5,13 @@
 //
 // Author: LIU Yi
 
-#include "utils/image/scale_space.h"
+#include "image/scale_space.h"
 
 #include <cmath>
 
 #include <opencv2/imgproc/imgproc.hpp>
 
-#include "utils/math/math.h"
+#include "math/math.h"
 
 using namespace std;
 using namespace cv;
@@ -20,11 +20,11 @@ const double ScaleSpace::Param::kDefaultSigma = 1.6;
 
 ScaleSpace::ScaleSpace() {
   ScaleSpace::Param param;
-  new (this)ScaleSpace(param);
+  new (this) ScaleSpace(param);
 }
 
 ScaleSpace::ScaleSpace(const Param& param) {
-  new (this)ScaleSpace(param.n_octaves, param.n_octave_layers,
+  new (this) ScaleSpace(param.n_octaves, param.n_octave_layers,
       param.first_octave, param.first_octave_layer,
       param.sigma);
 }

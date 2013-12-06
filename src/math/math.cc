@@ -5,7 +5,7 @@
 //
 // Author: LIU Yi
 
-#include "utils/math/math.h"
+#include "math/math.h"
 
 #include <cmath>
 

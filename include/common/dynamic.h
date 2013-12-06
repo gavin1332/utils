@@ -5,8 +5,8 @@
  *      Author: liuyi
  */
 
-#ifndef UTILS_COMMON_DYNAMIC_H_
-#define UTILS_COMMON_DYNAMIC_H_
+#ifndef COMMON_DYNAMIC_H_
+#define COMMON_DYNAMIC_H_
 
 #include <string>
 #include <map>

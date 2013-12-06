@@ -5,13 +5,13 @@
 //
 // Author: LIU Yi
 
-#include "utils/common/config.h"
+#include "common/config.h"
 
 #include <string>
 #include <fstream>
 #include <sstream>
 
-#include "utils/common/common.h"
+#include "common/common.h"
 
 using namespace std;
 

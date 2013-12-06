@@ -5,8 +5,8 @@
 //
 // Author: LIU Yi
 
-#ifndef UTILS_COMMON_CONFIG_H_
-#define UTILS_COMMON_CONFIG_H_
+#ifndef COMMON_CONFIG_H_
+#define COMMON_CONFIG_H_
 
 #include <cstdlib>
 #include <cassert>

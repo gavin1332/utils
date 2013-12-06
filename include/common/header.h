@@ -5,8 +5,8 @@
 //
 // Author: LIU Yi
 
-#ifndef UTILS_COMMON_HEADER_H_
-#define UTILS_COMMON_HEADER_H_
+#ifndef COMMON_HEADER_H_
+#define COMMON_HEADER_H_
 
 // A macro to disallow the copy constructor and operator= functions
 // This should be used in the private: declarations for a class

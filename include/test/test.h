@@ -5,8 +5,8 @@
 //
 // Author: LIU Yi
 
-#ifndef UTILS_TEST_TEST_H_
-#define UTILS_TEST_TEST_H_
+#ifndef TEST_TEST_H_
+#define TEST_TEST_H_
 
 #include <vector>
 #include <sstream>

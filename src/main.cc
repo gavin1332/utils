@@ -9,8 +9,8 @@
 
 #include <opencv2/core/core.hpp>
 
-#include "utils/image/mser.h"
-#include "utils/test/test.h"
+#include "image/mser.h"
+#include "test/test.h"
 
 using namespace cv;
 

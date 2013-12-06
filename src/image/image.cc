@@ -5,7 +5,7 @@
 //
 // Author: LIU Yi
 
-#include "utils/image/image.h"
+#include "image/image.h"
 
 #include <stack>
 
